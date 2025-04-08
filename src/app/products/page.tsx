@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import { ProductType } from '../types/products';
+import { ProductType } from '../../types/products';
 import { api } from '@/utils/axios';
 
 export default function Products() {
